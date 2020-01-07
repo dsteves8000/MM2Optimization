@@ -63,3 +63,9 @@ With this minimization, we can easily come up with the maximum possible levels t
 MM2clearoptimization.java takes in a text file (such as first200.txt, for example where the input is a list of world records, in my case, in easy mode where each record is separated by a new line in the text file) and outputs the optimal time to skip a level based on it's WR time under the assumption that you are clearing levels near WR pace for each level constantly, more or less.
 
 MM2realtimeoptimization.java works very similarly to the other java file, but instead of taking in an input file you will be able to directly input WR times one by one into the program as you are seeing them pop up when you play endless. At first when you run the program and enter in a few records the output will NOT be accurate, but the more records you put in, the more the program learns and will converge to the optimal value as the sample size increases.
+
+What I would like to figure out mathematically is what is the appropriate WR cutoff time first. This can then be used to solve the problem
+
+clears * (27 + AvgOfClearedWRs) + (TotalPlays - clears)*12 = timeSpent 
+
+Where AvgOfClearedWRs is unknown because of the WR cutoff time variable.
