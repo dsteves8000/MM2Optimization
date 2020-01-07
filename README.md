@@ -68,4 +68,4 @@ What I would like to figure out mathematically is what is the appropriate WR cut
 
 clears * (27 + AvgOfClearedWRs) + (TotalPlays - clears)*12 = timeSpent 
 
-Where AvgOfClearedWRs is unknown because of the WR cutoff time variable.
+where AvgOfClearedWRs is unknown because of the WR cutoff time variable.
