@@ -1,6 +1,6 @@
 # MM2Optimization
 
-//Project introduced by DSteves, current rank 1 in Total Clears, Easy Endless Clears, and number of World Records in Super Mario Maker 2.
+//Project introduced by DSteves, current rank 1, world champion in Total Clears, Easy Endless Clears, and number of World Records in Super Mario Maker 2.
 
 The goal of this project is to find the most optimal approach to playing endless for each difficulty and knowing when you should play a level VS when you should skip a level.
 
